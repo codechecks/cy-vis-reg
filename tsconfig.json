@@ -18,7 +18,8 @@
     "declaration": true,
     "outDir": "lib",
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["cypress", "jest"]
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
